@@ -1,9 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button, Heading, Text, LogoIcon } from '@pancakeswap/uikit'
+import { Button, Heading, Text, LogoIcon, SvgProps } from '@pancakeswap/uikit'
 import Page from 'components/Layout/Page'
 import { useTranslation } from 'contexts/Localization'
 
+interface LogoIcon extends SvgProps {
+  isDark: boolean;
+}
 const StyledNotFound = styled.div`
   align-items: center;
   display: flex;
