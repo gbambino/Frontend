@@ -211,7 +211,7 @@ const Staked: React.FunctionComponent<StackedActionProps> = ({ pool, userDataLoa
           </Flex>
           <IconButtonWrapper>
             <IconButton variant="secondary" onClick={onUnstake} mr="6px">
-              <MinusIcon color="primary" width="14px" />
+              <MinusIcon color="" width="14px" />
             </IconButton>
             {reachStakingLimit ? (
               <span ref={targetRef}>

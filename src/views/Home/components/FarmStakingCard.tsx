@@ -65,7 +65,7 @@ const FarmedStakingCard = () => {
         <Heading scale="xl" mb="24px">
           {t('Farms & Staking')}
         </Heading>
-        <CardImage src="/images/toco.png" alt="cake logo" width={64} height={64} />
+        <CardImage src="/images/pixel/tocoCircle.png" alt="cake logo" width={64} height={64} />
         <Block>
           <Label>{t('TOCO to Harvest')}:</Label>
           <CakeHarvestBalance farmsWithBalance={balancesWithValue} />

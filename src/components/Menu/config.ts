@@ -19,10 +19,6 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
         label: t('Liquidity'),
         href: 'https://exchange.pancakeswap.finance/#/pool',
       },
-      {
-        label: t('LP Migration'),
-        href: 'https://v1exchange.pancakeswap.finance/#/migrate',
-      },
     ],
   },
   {
@@ -33,17 +29,17 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   {
     label: t('TOCO Nests'),
     icon: 'PoolIcon',
+    href: '/syrup',
+  },
+  {
+    label: t('ITO Hatchery (COMING SOON!)'),
+    icon: 'TeamBattleIcon',
     href: '/pools',
   },
   {
-    label: t('Hatchery (COMING SOON!)'),
-    icon: 'PoolIcon',
-    href: '/pools',
-  },
-  {
-    label: t('Info'),
+    label: t('Docs'),
     icon: 'InfoIcon',
-    href: 'https://pancakeswap.info',
+    href: 'https://app.gitbook.com/@gbambino/s/toucanswap-finance/',
   },
   {
     label: t('More'),
@@ -51,19 +47,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'https://docs.pancakeswap.finance/contact-us',
+        href: 'https://app.gitbook.com/@gbambino/s/toucanswap-finance/general/contact-us',
       },
       {
         label: t('Github'),
-        href: 'https://github.com/pancakeswap',
-      },
-      {
-        label: t('Docs'),
-        href: 'https://docs.pancakeswap.finance',
-      },
-      {
-        label: t('Blog'),
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://app.gitbook.com/@gbambino/s/toucanswap-finance/general/github',
       },
     ],
   },

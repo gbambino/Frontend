@@ -380,7 +380,7 @@ const Farms: React.FC = () => {
           {t('Farms')}
         </Heading>
         <Heading scale="lg" color="text">
-          {t('Stake LP tokens to earn.')}
+          {t('Stake LP tokens to earn TOCO.')}
         </Heading>
         <NavLink exact activeClassName="active" to="/farms/auction" id="lottery-pot-banner">
           <Button p="0" variant="text">
